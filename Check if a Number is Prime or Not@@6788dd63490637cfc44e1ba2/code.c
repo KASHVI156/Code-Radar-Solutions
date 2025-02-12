@@ -6,9 +6,10 @@ int main(){
     if(a=2){
             printf("Prime");
         }
+        return 0;
     else{
     for(i=2;i<a;i++){
-        if(a>0 && a%i==0){
+        if(a%i==0){
             printf("Not Prime");
         }
         else{
