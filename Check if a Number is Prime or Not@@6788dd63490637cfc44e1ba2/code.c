@@ -1,10 +1,10 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int a;
+    int a,i;
     scanf("%d", &a);
     for(i=2;i<a;i++){
-        if(i%a==0){
+        if(a>0 && i%a==0){
             printf("Prime");
         }
         else{
