@@ -15,8 +15,12 @@ int main(){
         printf("%d", a*b);
         break;
         case '/':
-        printf("%d", a/b);
-        break;
+        if (b == 0) {
+                printf("Error! Division by zero is not allowed.\n");
+            } else {
+                printf("%d / %d = %d\n", a, b, a / b);
+            }
+            break;
         default:
         printf("error");
     }
