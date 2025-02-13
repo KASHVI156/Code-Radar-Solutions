@@ -4,7 +4,7 @@ int main(){
     int a,b;
     char c;
     scanf("%d %d %c", &a, &b, &c);
-    switch{
+    switch (c){
         case 1:
         printf("%d", a+b);
         break;
