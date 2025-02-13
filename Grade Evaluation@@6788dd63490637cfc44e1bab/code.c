@@ -15,7 +15,7 @@ int main(){
         break;
         case 'D':
         printf("Below Average");
-        case 'E':
+        case 'F':
         printf("Fail");
         break;
         default:
